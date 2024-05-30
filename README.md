@@ -1,4 +1,4 @@
-<img width="1468" alt="image" src="https://github.com/LitHaxor/AIUB-CGPA-Chart-Chrome-extention/assets/30951672/3140e42a-abfd-4225-b430-3d9d6c979506"># AIUB Grade by Semester Chart Extension
+# AIUB Grade by Semester Chart Extension
 
 This extension enhances the AIUB student portal by adding a GPA/CGPA chart to the "Grade by Semester" page.
 
