@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "AIUB CGPA Chart",
+    "version": "1.0",
+    "description": "Adds a GPA chart to the AIUB student portal",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/grade.png",
+        "48": "images/grade.png",
+        "128": "images/grade.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://portal.aiub.edu/Student/GradeReport/BySemester*"],
+        "js": ["libs/chart.min.js", "main.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [{
+      "resources": ["libs/chart.min.js"],
+      "matches": ["<all_urls>"]
+    }],
+    "icons": {
+      "16": "images/grade.png",
+      "48": "images/grade.png",
+      "128": "images/grade.png"
+    }
+  }
+  
