@@ -34,7 +34,8 @@ This extension is a third-party tool and is not officially affiliated with the A
 
 
     **Done installation**
-   <img width="901" alt="image" src="https://github.com/LitHaxor/AIUB-CGPA-Chart-Chrome-extention/assets/30951672/5b0010f0-eb14-4681-9d51-9c9d2d486618">
+
+   <img width="1470" alt="image" src="https://github.com/LitHaxor/AIUB-CGPA-Chart-Chrome-extention/assets/30951672/4b05f115-5e8c-4a1d-845a-b84ecfe3957c">
 
 
 4. **Access the AIUB Portal**:
